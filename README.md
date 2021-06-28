@@ -1,24 +1,13 @@
-# insider-teeter-totter
+# Hi there! Here is a secret project for insiders. "Teeter Totter". 
 
-## Project setup
+This is a test case for insiders. 
+
+### Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Your fingers could have trigger the bomb
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
