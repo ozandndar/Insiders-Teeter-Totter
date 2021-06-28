@@ -20,7 +20,7 @@ export default {
   left: 0;
   right: 0;
   position: absolute;
-  bottom: 14.6%;
+  bottom: 16.1%;
   transition: .3s ease all;
 }
 

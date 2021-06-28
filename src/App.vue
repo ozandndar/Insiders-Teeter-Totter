@@ -119,7 +119,7 @@ export default {
       return Math.floor(Math.random() * 5); // 0 - 4
     },
     generateRandomPosY: function () {
-      return Math.floor(Math.random() * 9); // 0 - 8
+      return Math.floor(Math.random() * 8); // 0 - 8
     },
     generateRandomColor: function () {
       return "#" + (((1 << 24) * Math.random()) | 0).toString(16);

@@ -52,7 +52,7 @@ export default {
     };
   },
   created() {
-    if (this.turn === "right" && this.$data.state_posy < 8) {
+    if (this.turn === "right" && this.$data.state_posy < 7) {
       window.addEventListener("keydown", this.moveObj);
     }
   },
@@ -65,16 +65,16 @@ export default {
   }),
   mounted: function () {
     let draw = setInterval(() => {
-      if (this.$data.state_posy < 8 && this.isStarted) {
+      if (this.$data.state_posy < 7 && this.isStarted) {
         this.$data.state_posy++;
-      } else if (this.$data.state_posy === 8) {
+      } else if (this.$data.state_posy === 7) {
         this.$store.commit("calculate", true);
         clearInterval(draw);
       }
     }, 700);
   },
   updated: function () {
-    if (this.$data.state_posy === 8) {
+    if (this.$data.state_posy === 7) {
       window.removeEventListener("keydown", this.moveObj);
       this.$destroy();
     }
