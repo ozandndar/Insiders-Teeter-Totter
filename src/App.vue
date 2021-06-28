@@ -194,7 +194,7 @@ body {
   margin: 0 auto;
   display: block;
   background: rgb(235, 235, 235);
-  height: 100vh;
+  height: 917px;
   padding: 0;
   position: relative;
 }
